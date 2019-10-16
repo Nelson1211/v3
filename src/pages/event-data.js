@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import getPartnerOrganization from "../hooks/get-event-data";
+import getEventData from "../hooks/get-event-data";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
