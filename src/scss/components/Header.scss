@@ -3,3 +3,22 @@ header {
   background-color: $primary;
   padding: 1.45rem 1.0875rem;
 }
+
+container {
+  background-color: $primary;
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: auto auto auto;
+}
+
+header-container {
+  background-color: $primary;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
